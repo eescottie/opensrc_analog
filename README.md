@@ -8,12 +8,15 @@ To do analog IC design, at lease we need four items:
   - Device models from [Skywater open-source PDK](https://github.com/google/skywater-pdk) is used
 - Schematic Editor
   - Used to create the schematic of your analog circuit and generate the coressponding netlist for simulation
-  - [XSCHEM is used](https://github.com/StefanSchippers/xschem)
+  - [XSCHEM](https://github.com/StefanSchippers/xschem) is used
 - Simulator
   - Used to simulate the electrical behaviour of your analog circuit.  The netlist and device models mentioned above are used by the simulator to generate the results.
-  - [NGSPICE is used](https://ngspice.sourceforge.io/)
+  - [NGSPICE](https://ngspice.sourceforge.io/) is used
 - Waveform Viewer
   - Used to view the simulation results such as bode plots for stability analysis or time-domain waveform (aka transient waveform)
-  - [Modified GAW is used](https://github.com/StefanSchippers/xschem-gaw)
+  - [Modified GAW](https://github.com/StefanSchippers/xschem-gaw) is used
 
 ## Setting Up the Tools
+1. Once you login into the Ubuntu OS, do "Ctrl"+"Alt"+"t" to launch the Terminal Window. !()
+2. Type `git clone https://github.com/eescottie/jumpstart_xschem_ngspice_analog.git'
+3. 
