@@ -38,8 +38,13 @@ Once the Terminal Window is up, copy the following and hit "Enter":
 ```
 cd ExampleAnalogIC
 ```
-Right now you are at the folder containing all three different schematics, let's launch the schematic about DC OP by copying the following into the Terminal and hit "Enter"
+Right now you are at the folder containing all three schematics, let's launch the schematic about DC OP by copying the following into the Terminal and hit "Enter"
 ```
 ./run_xschem opamp_dc.sch
 ```
-Then, you will see the following window !()
+The DC OP schematic window pops up.  There are three important buttons at the top right corner of the schematic window:
+- Nelist:     To generate the netlist
+- Simulate:   Start simulation
+- Waves:      Launch waveform viewer
+<br><img src="/images/DC_OP_sch.PNG" width="640px" >
+
