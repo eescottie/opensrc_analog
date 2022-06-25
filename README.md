@@ -42,7 +42,7 @@ Right now you are at the folder containing all three schematics, let's launch th
 ```
 ./run_xschem opamp_dc.sch
 ```
-The DC OP schematic window pops up.  There are three important buttons at the top right corner of the schematic window:
+The DC OP schematic window pops up.  There are three important buttons at the top right corner of the schematic window (click the picture if it is too small for you):
 - Nelist:     To generate the netlist
 - Simulate:   Start simulation
 - Waves:      Launch waveform viewer
