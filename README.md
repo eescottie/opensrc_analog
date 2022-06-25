@@ -18,5 +18,5 @@ To do analog IC design, at lease we need four items:
 
 ## Setting Up the Tools
 1. Once you login into the Ubuntu OS, do "Ctrl"+"Alt"+"t" to launch the Terminal Window. !()
-2. Type `git clone https://github.com/eescottie/jumpstart_xschem_ngspice_analog.git'
+2. Type `git clone https://github.com/eescottie/jumpstart_xschem_ngspice_analog.git`
 3. 
