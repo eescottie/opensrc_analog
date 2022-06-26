@@ -79,22 +79,27 @@ let's launch the schematic about AC Performance by copying the following into th
 ```
 
 <img src="/images/AC_sch_1.PNG" width="560px" ><br>
+
 Let's now click the the top right corner "Nelist" button and then the "Simulate" button.
 Once the simulation is completed, let's now click the top right corner "Waves" button to launch the wavefrom viewer.
 As shown in the below figure, there are two windows.  The left hand side one is for you to select which signal to be plotted.  The right hand side one is to show you the waveform you want.
 
 <img src="/images/AC_sch_2.PNG" width="560px" ><br>
+
 First, we have to click the upper Panel of the right hand side window to tell which Panel we want to show the waveform.
 Then, let's select a signal called "db_out" from the left hand side window and click it.  You should see the following:
 
 <img src="/images/AC_sch_3.PNG" width="560px" ><br>
+
 Second, click the lower Panel of the right hand side window.  Then, select a signal called "p_out" from the left hand side window and click it.  You may need to scroll down at the left hand side window to find out the signal "p_out".  You should now see the following:
 
 <img src="/images/AC_sch_4.PNG" width="560px" ><br>
+
 To show a Bode plot, we have to change the x-axis from linear scale to log scale.
 Click the pull down menu "Preferences" and click "Log X scale".  You should now see the following:
 
 <img src="/images/AC_sch_5.PNG" width="560px" ><br>
+
 From the cursor, we can estimate the phase margin.  However, it is not accurate enough.
 Let's go back to the schematic window, press "Ctrl" and right click the arrow "View Output File".
 It is configured to measure both the phase margin and gain margin.  Please see the below figure for details:
@@ -111,6 +116,7 @@ let's launch the schematic about transient performance by copying the following 
 ```
 
 <img src="/images/TRAN_sch_1.PNG" width="560px" ><br>
+
 Let's now click the the top right corner "Nelist" button and then the "Simulate" button.
 Transient simulation takes longer time than the above DC and AC simulations.
 Once the simulation is completed, let's now click the top right corner "Waves" button to launch the wavefrom viewer.
@@ -120,3 +126,13 @@ Let's go back to the schematic window, and right click the signal we want to plo
 For example, we right click the "vp" net and then press "k".  This will highlight the "vp" net as shown below:
 
 <img src="/images/TRAN_sch_2.PNG" width="560px" ><br>
+Then, we right click the "out" net and press "k" to highlight the "out".
+As shown below, both the "vp" net and the "out" net are now highlighted.
+
+<img src="/images/TRAN_sch_3.PNG" width="560px" ><br>
+Now, we press "Shift" + "j", the tranisent waveforms of "vp" net and "out" net are shown in the waveform viewer automatically.
+
+<img src="/images/TRAN_sch_4.PNG" width="560px" ><br>
+## Conclusion
+This page basically gives you some working examples to jumpstart on how to use open-source tools and open-source PDK to design analog circuit.
+Enjoy
