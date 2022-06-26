@@ -43,8 +43,13 @@ Right now you are at the folder containing all three schematics, let's launch th
 ./run_xschem opamp_dc.sch
 ```
 The DC OP schematic window pops up.  There are three important buttons at the top right corner of the schematic window (click the picture if it is too small for you):
-- Nelist:     To generate the netlist
+- Nelist:     To generate the netlist for later simulation
 - Simulate:   Start simulation
 - Waves:      Launch waveform viewer
-<br><img src="/images/DC_OP_sch.PNG" width="640px" >
+<br><img src="/images/DC_OP_sch_1.PNG" width="640px" ><br>
+In the schematic, there are two elements, once is called TT_MODEL and another is called DC_SIM.
+The TT_MODEL specifies which device models we are going to use.  The DC_SIM configures what simulations we are going to do and what kind of data we would like to save after the simulation is completed.
+Use your mouse to right clock the TT_MODEL, it's color will be changed from green to grey, then press "q" to launch a window where shows we are using the Typical device models from Skywater 130nm technology.
+<br><img src="/images/DC_OP_sch_2.PNG" width="640px" ><br>
+
 
