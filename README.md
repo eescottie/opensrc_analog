@@ -52,7 +52,7 @@ At the top left corner of the schematic, there are two elements:
 - TT_MODEL: Specifing which device models to use
 - DC_SIM:   Specifing which simulations to run and what data to save
 
-In order to check the details, use the mouse to right click the element then it's color is changed from green to grey.  Then press "q" to launch a window where shows you all the details. The figure below shows you the corresponding window of TT_MODEL.
+In order to check the details, use the mouse to left click the element then it's color is changed from green to grey.  Then press "q" to launch a window where shows you all the details. The figure below shows you the corresponding window of TT_MODEL.
 
 <img src="/images/DC_OP_sch_2.PNG" width="560px" ><br>
 Before performing any simulation, netlist must be generated.  To do so, click the top right corner button "Netlist".
@@ -63,7 +63,7 @@ There are two arrows on the schematic:
 - Annotate: Shows DC OP (e.g. voltage, current, transconductance) on the schematic 
 - View Output File: Shows the simulation output file
 
-Press the "Ctrl" button and right click the arrow to activate the corresponding funtion.  
+Press the "Ctrl" button and left click the arrow to activate the corresponding funtion.  
 After the "Annotate" arrow is clicked, the DC OP is printed on the schematic.  This is also called back-annotation.  
 When the "View Output File" arrow is clicked, the simulation output file is displayed.  It is configured to show the Vgs, Vth, Vds, Vdsat, gm, gds, of different MOS transistors.  Please see the figure below for details.
 
@@ -101,7 +101,7 @@ Click the pull down menu "Preferences" and click "Log X scale".  You should now 
 <img src="/images/AC_sch_5.PNG" width="560px" ><br>
 
 From the cursor, we can estimate the phase margin.  However, it is not accurate enough.
-Let's go back to the schematic window, press "Ctrl" and right click the arrow "View Output File".
+Let's go back to the schematic window, press "Ctrl" and left click the arrow "View Output File".
 It is configured to measure both the phase margin and gain margin.  Please see the below figure for details:
 
 <img src="/images/AC_sch_6.PNG" width="560px" ><br>
@@ -122,11 +122,11 @@ Transient simulation takes longer time than the above DC and AC simulations.
 Once the simulation is completed, let's now click the top right corner "Waves" button to launch the wavefrom viewer.
 This time we will use another method to plot the transient waveforms.
 
-Let's go back to the schematic window, and right click the signal we want to plot the waveform.
-For example, we right click the "vp" net and then press "k".  This will highlight the "vp" net as shown below:
+Let's go back to the schematic window, and left click the signal we want to plot the waveform.
+For example, we left click the "vp" net and then press "k".  This will highlight the "vp" net as shown below:
 
 <img src="/images/TRAN_sch_2.PNG" width="560px" ><br>
-Then, we right click the "out" net and press "k" to highlight the "out".
+Then, we left click the "out" net and press "k" to highlight the "out".
 As shown below, both the "vp" net and the "out" net are now highlighted.
 
 <img src="/images/TRAN_sch_3.PNG" width="560px" ><br>
@@ -135,4 +135,4 @@ Now, we press "Shift" + "j", the tranisent waveforms of "vp" net and "out" net a
 <img src="/images/TRAN_sch_4.PNG" width="560px" ><br>
 ## Conclusion
 This page basically gives you some working examples to jumpstart on how to use open-source tools and open-source PDK to design analog circuit.
-Enjoy
+Enjoy !
