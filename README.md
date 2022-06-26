@@ -100,3 +100,23 @@ Let's go back to the schematic window, press "Ctrl" and right click the arrow "V
 It is configured to measure both the phase margin and gain margin.  Please see the below figure for details:
 
 <img src="/images/AC_sch_6.PNG" width="560px" ><br>
+### Simulating Transient Performance
+Press Ctrl"+"Alt"+"t" to launch the Terminal Window, then copy the following and hit "Enter":
+```
+cd ExampleAnalogIC
+```
+let's launch the schematic about transient performance by copying the following into the Terminal and hit "Enter"
+```
+./run_xschem opamp_tran.sch
+```
+
+<img src="/images/TRAN_sch_1.PNG" width="560px" ><br>
+Let's now click the the top right corner "Nelist" button and then the "Simulate" button.
+Transient simulation takes longer time than the above DC and AC simulations.
+Once the simulation is completed, let's now click the top right corner "Waves" button to launch the wavefrom viewer.
+This time we will use another method to plot the transient waveforms.
+
+Let's go back to the schematic window, and right click the signal we want to plot the waveform.
+For example, we right click the "vp" net and then press "k".  This will highlight the "vp" net as shown below:
+
+<img src="/images/TRAN_sch_2.PNG" width="560px" ><br>
