@@ -68,6 +68,35 @@ After the "Annotate" arrow is clicked, the DC OP is printed on the schematic.  T
 When the "View Output File" arrow is clicked, the simulation output file is displayed.  It is configured to show the Vgs, Vth, Vds, Vdsat, gm, gds, of different MOS transistors.  Please see the figure below for details.
 
 <img src="/images/DC_OP_sch_4.PNG" width="560px" ><br>
+### Simulating AC Performance (e.g. Stability)
+We have to open another schematic.  Press Ctrl"+"Alt"+"t" to launch the Terminal Window, then copy the following and hit "Enter":
+```
+cd ExampleAnalogIC
+```
+let's launch the schematic about AC Performance by copying the following into the Terminal and hit "Enter"
+```
+./run_xschem opamp_ac.sch
+```
 
+<img src="/images/AC_sch_1.PNG" width="560px" ><br>
+Let's now click the the top right corner "Nelist" button and then the "Simulate" button.
+Once the simulation is completed, let's now click the top right corner "Waves" button to launch the wavefrom viewer.
+As shown in the below figure, there are two windows.  The left hand side one is for you to select which signal to be plotted.  The right hand side one is to show you the waveform you want.
 
+<img src="/images/AC_sch_2.PNG" width="560px" ><br>
+First, we have to click the upper Panel of the right hand side window to tell which Panel we want to show the waveform.
+Then, let's select a signal called "db_out" from the left hand side window and click it.  You should see the following:
 
+<img src="/images/AC_sch_3.PNG" width="560px" ><br>
+Second, click the lower Panel of the right hand side window.  Then, select a signal called "p_out" from the left hand side window and click it.  You may need to scroll down at the left hand side window to find out the signal "p_out".  You should now see the following:
+
+<img src="/images/AC_sch_4.PNG" width="560px" ><br>
+To show a Bode plot, we have to change the x-axis from linear scale to log scale.
+Click the pull down menu "Preferences" and click "Log X scale".  You should now see the following:
+
+<img src="/images/AC_sch_5.PNG" width="560px" ><br>
+From the cursor, we can estimate the phase margin.  However, it is not accurate enough.
+Let's go back to the schematic window, press "Ctrl" and right click the arrow "View Output File".
+It is configured to measure both the phase margin and gain margin.  Please see the below figure for details:
+
+<img src="/images/AC_sch_6.PNG" width="560px" ><br>
