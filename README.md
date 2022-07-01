@@ -24,7 +24,10 @@ git clone https://github.com/eescottie/opensrc_analog.git
 ```
 3. Again, copy the following into the Terminal Window, and hit "Enter":
 ```
-cd opensrc_analog; chmod +x setup.sh; ./setup.sh; cd ../
+cd opensrc_analog
+chmod +x setup.sh
+./setup.sh
+cd ../
 ```
 4. The setup of tools is completed.
 
