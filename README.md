@@ -1,5 +1,5 @@
 ## Objective of Page
-This page provides a jumpstart to you on how to use different open-source tools and the Skywater open-source PDK (Process Design Kit) to perform analog IC (Integrated Circuit) design.  My students will have access to the HKUST ECE Cloud Service, in where all the open-source tools and PDKs are installed.  For others without the access to the cloud service, I will come up another page on how to use the VirtualBox to run Ubuntu and the steps of installing the open-source tools and PDK.  Stay tuned !!
+This page provides a jumpstart on how to use different open-source tools and the Skywater open-source PDK (Process Design Kit) to perform analog IC (Integrated Circuit) design.  My students will have access to the HKUST ECE Cloud Service, in where all the open-source tools and PDKs are installed.  For others without the access to the cloud service, please go [here](https://github.com/eescottie/opensrc_tools_pdk) to either download the pre-configured VirtualBox image or follow the steps there to create your own virtual machine for your analog IC design.
 
 ## Introduction
 To do analog IC design, at least we need four items:
@@ -59,7 +59,7 @@ In order to check the details, use the mouse to left click the element then it's
 
 <img src="/images/DC_OP_sch_2.PNG" width="560px" ><br>
 Before performing any simulation, netlist must be generated.  To do so, click the top right corner button "Netlist".
-Then, simulation is started by clicking the top right corner button "Simulate".  The button turns red when the simulation is undergoing.  Once the simulation is completed, a window pops up.  If no errors, you can dismiss the window.
+Then, simulation can be started by clicking the top right corner button "Simulate".  Then, just be patient as once the simulation is completed, a window pops up.  If no errors, you can dismiss the window.
 
 <img src="/images/DC_OP_sch_3.PNG" width="560px" ><br>
 There are two arrows on the schematic:
