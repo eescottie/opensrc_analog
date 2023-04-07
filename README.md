@@ -1,5 +1,5 @@
 ## Objective of Page
-This page provides a jumpstart on how to use different open-source tools and the Skywater open-source PDK (Process Design Kit) to perform analog IC (Integrated Circuit) design.  My students will have access to the HKUST ECE Cloud Service, in where all the open-source tools and PDKs are installed.  For others without the access to the cloud service, please go [here](https://github.com/eescottie/opensrc_tools_pdk) to either download the pre-configured VirtualBox image or follow the steps there to create your own virtual machine for your analog IC design.
+This page provides a jumpstart on how to use different open-source tools and the Skywater open-source PDK (Process Design Kit) to perform analog IC (Integrated Circuit) design.  Please go [here](https://github.com/eescottie/opensrc_tools_pdk) to either download the pre-configured VirtualBox image or follow the steps there to create your own virtual machine for your analog IC design.
 
 ## Introduction
 To do analog IC design, at least we need four items:
